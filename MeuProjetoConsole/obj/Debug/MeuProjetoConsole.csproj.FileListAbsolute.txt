@@ -6,3 +6,11 @@ C:\Users\Yoda\Desktop\MeuProduto\MeuProjetoConsole\obj\Debug\MeuProjetoConsole.e
 C:\Users\Yoda\Desktop\MeuProduto\MeuProjetoConsole\obj\Debug\MeuProjetoConsole.pdb
 C:\Users\Yoda\Desktop\MeuProduto\MeuProjetoConsole\bin\Debug\MeuProduto.dll
 C:\Users\Yoda\Desktop\MeuProduto\MeuProjetoConsole\bin\Debug\MeuProduto.pdb
+C:\Users\Yoda\Desktop\sistemas\MeuProduto - Copia\MeuProjetoConsole\bin\Debug\MeuProjetoConsole.exe.config
+C:\Users\Yoda\Desktop\sistemas\MeuProduto - Copia\MeuProjetoConsole\obj\Debug\MeuProjetoConsole.exe
+C:\Users\Yoda\Desktop\sistemas\MeuProduto - Copia\MeuProjetoConsole\obj\Debug\MeuProjetoConsole.pdb
+C:\Users\Yoda\Desktop\sistemas\MeuProduto - Copia\MeuProjetoConsole\bin\Debug\MeuProjetoConsole.exe
+C:\Users\Yoda\Desktop\sistemas\MeuProduto - Copia\MeuProjetoConsole\bin\Debug\MeuProjetoConsole.pdb
+C:\Users\Yoda\Desktop\sistemas\MeuProduto - Copia\MeuProjetoConsole\bin\Debug\MeuProduto.dll
+C:\Users\Yoda\Desktop\sistemas\MeuProduto - Copia\MeuProjetoConsole\bin\Debug\MeuProduto.pdb
+C:\Users\Yoda\Desktop\sistemas\MeuProduto - Copia\MeuProjetoConsole\obj\Debug\MeuProjetoConsole.csprojResolveAssemblyReference.cache

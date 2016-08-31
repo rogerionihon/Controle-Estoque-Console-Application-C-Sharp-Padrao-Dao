@@ -2,3 +2,7 @@ C:\Users\Yoda\Desktop\MeuProduto\MeuProduto\bin\Debug\MeuProduto.dll
 C:\Users\Yoda\Desktop\MeuProduto\MeuProduto\bin\Debug\MeuProduto.pdb
 C:\Users\Yoda\Desktop\MeuProduto\MeuProduto\obj\Debug\MeuProduto.dll
 C:\Users\Yoda\Desktop\MeuProduto\MeuProduto\obj\Debug\MeuProduto.pdb
+C:\Users\Yoda\Desktop\sistemas\MeuProduto - Copia\MeuProduto\bin\Debug\MeuProduto.dll
+C:\Users\Yoda\Desktop\sistemas\MeuProduto - Copia\MeuProduto\bin\Debug\MeuProduto.pdb
+C:\Users\Yoda\Desktop\sistemas\MeuProduto - Copia\MeuProduto\obj\Debug\MeuProduto.dll
+C:\Users\Yoda\Desktop\sistemas\MeuProduto - Copia\MeuProduto\obj\Debug\MeuProduto.pdb

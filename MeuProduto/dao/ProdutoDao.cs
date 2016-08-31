@@ -5,15 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using MeuProduto.model;
+using System.Configuration;
 
 namespace MeuProduto.dao
 {
    public class ProdutoDao
     {
+       
         //DAO de insercao de produtos
         public void inserir(Produto produto )
         {
-            string connectionStringInserir = @"server=localhost;database=meuproduto;userid=root;password=root";
+            string connectionStringInserir = ConfigurationManager.ConnectionStrings["Banco"].ConnectionString;
             string queryInserir = "INSERT INTO produto (nome, quantidade, valor, fornecedor, preco_venda) values (@nome, @quantidade, @valor, @fornecedor, @preco_venda)";
 
             MySqlConnection connectionInsert = new MySqlConnection(connectionStringInserir);
@@ -34,7 +36,7 @@ namespace MeuProduto.dao
         public Produto PesquisarPorId(int Id)
         {
             Produto pesquisarId = new Produto();
-            string connectionStringPesquisarId = @"server=localhost;database=meuproduto;userid=root;password=root";
+            string connectionStringPesquisarId = ConfigurationManager.ConnectionStrings["Banco"].ConnectionString;
             string queryPesquisarId = "SELECT id, nome, quantidade, valor, fornecedor, preco_venda FROM produto WHERE id = @id";
 
             
@@ -68,7 +70,7 @@ namespace MeuProduto.dao
         public Produto PesquisarPorNome(string nome)
         {
             Produto listaProduto = new Produto();
-            string connectionStringPesquisarNome = @"server=localhost;database=meuproduto;userid=root;password=root";
+            string connectionStringPesquisarNome = ConfigurationManager.ConnectionStrings["Banco"].ConnectionString;
             string queryPesquisarNome = "SELECT id, nome, quantidade, valor, fornecedor, preco_venda FROM produto WHERE nome like @nome";
 
             MySqlConnection connectionPesquisarId = new MySqlConnection(connectionStringPesquisarNome);
@@ -98,7 +100,7 @@ namespace MeuProduto.dao
         public List<Produto> PesquisarTodos()
         {
             List<Produto> listartodos = new List<Produto>();
-            string connectionStringPesquisarTodos = @"server=localhost;database=meuproduto;userid=root;password=root";
+            string connectionStringPesquisarTodos = ConfigurationManager.ConnectionStrings["Banco"].ConnectionString;
             string queryPesquisarId = "SELECT id, nome, quantidade,valor, fornecedor, preco_venda FROM produto";
 
             MySqlConnection connectionPesquisarId = new MySqlConnection(connectionStringPesquisarTodos);
@@ -125,7 +127,7 @@ namespace MeuProduto.dao
         //DAO que realiza as modificacoes dos produtos 
         public void modificar(Produto produto)
         {
-            string connectionStringModificar = @"server=localhost;database=meuproduto;userid=root;password=root";
+            string connectionStringModificar = ConfigurationManager.ConnectionStrings["Banco"].ConnectionString;
             string queryModificar = "UPDATE produto set nome=@nome, quantidade=@quantidade, valor=@valor, fornecedor=@fornecedor, preco_venda=preco_venda WHERE id = @id";
 
             MySqlConnection connectionModificar = new MySqlConnection(connectionStringModificar);
@@ -147,7 +149,7 @@ namespace MeuProduto.dao
        //DAO que realiza a remocao dos produtos
         public void Remover(Produto produto)
         {
-            String connectionStringRemover = @"server=localhost;database=meuproduto;userid=root;password=root";
+            String connectionStringRemover = ConfigurationManager.ConnectionStrings["Banco"].ConnectionString;
             String queryRemover = "DELETE FROM produto WHERE id = @id";
             MySqlConnection connectionRemover = new MySqlConnection(connectionStringRemover);
             connectionRemover.Open();

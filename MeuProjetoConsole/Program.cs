@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using MeuProduto.model;
 using MeuProduto.dao;
+using System.Configuration;
 
 
 
