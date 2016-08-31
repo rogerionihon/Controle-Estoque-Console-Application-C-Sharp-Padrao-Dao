@@ -1,1 +1,1 @@
-# Controle-de-estoque-Console-Application-C-
+# Controle-de-estoque-Console-Application-C-Sharp-Padrao-DAO
